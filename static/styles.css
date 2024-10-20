@@ -1,0 +1,86 @@
+/* General Reset and Styles */
+body {
+    background-color: #e3f2fd;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #212121;
+    font-size: 28px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+/* Label and Input Fields */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #42a5f5;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    background-color: #42a5f5;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e88e5;
+}
+
+/* Status Message Styling */
+.status-message {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
